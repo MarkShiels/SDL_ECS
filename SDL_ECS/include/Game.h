@@ -14,10 +14,10 @@ public:
 
 private:
 
-    void processEvents();
+    void processEvents(SDL_Event event);
     void update();
     void render();
-
+    void load();
     bool m_gameIsRunning;
 
 

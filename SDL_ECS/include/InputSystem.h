@@ -13,7 +13,10 @@ InputSystem(){};
 void addEntity(Entity t_ent) {m_entities.push_back(t_ent);};
 void update()
 {
-    
+     for (Entity e : m_entities)
+    {
+      std::cout << e.getID() << " Input update" << std::endl;
+    }
 };
 
 
