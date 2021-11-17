@@ -1,6 +1,8 @@
 #include <SDL2/SDL.h>
 #include <iostream>
 #include "../include/HealthSystem.h"
+#include "../include/PositionSystem.h"
+#include "../include/InputSystem.h"
 
 class Game
 {
@@ -20,5 +22,8 @@ private:
 
 
     HealthSystem    m_hs;
-    Entity          m_player;
+    PositionSystem  m_ps;
+    InputSystem     m_is;
+
+    Entity          m_player, m_villain, m_cortana, m_dinky_Di;
 };

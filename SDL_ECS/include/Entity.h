@@ -1,6 +1,9 @@
-
+#ifndef H_ENTITY
+#define H_ENTITY
 #include <vector> 
 #include "../include/HealthComponent.h"
+#include "../include/PositionComponent.h"
+#include "../include/InputComponent.h"
 
 class Entity 
 {
@@ -22,3 +25,4 @@ private:
 
 
 };
+#endif

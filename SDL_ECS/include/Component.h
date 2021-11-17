@@ -1,5 +1,5 @@
 #ifndef H_COMPONENT
-#define h_COMPONENT
+#define H_COMPONENT
 class Component
 {
 public:
